@@ -1,0 +1,55 @@
+# 🎓 Student Grade Manager v2.0
+
+> **Console Application në Python** — Projekt për lëndën *Hyrje në Programim*, Klasa X, Gjysmëvjetori I.
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
+
+---
+
+## 📌 Përshkrimi
+
+**Student Grade Manager** është një aplikacion console (terminal) i ndërtuar në Python që lejon menaxhimin e plotë të nxënësve dhe notave të tyre. Ka një menu interaktive me **12 opsione**, ndërfaqe me **ngjyra ANSI**, validim të plotë të input-it, statistika të avancuara, dhe ruajtje/ngarkim të dhënash në skedar.
+
+Ky projekt u krijua si detyrë projektuese për lëndën **Hyrje në Programim** dhe demonstron konceptet bazë të programimit në Python në një mënyrë praktike dhe të kuptueshme.
+
+---
+
+## ✨ Veçoritë Kryesore
+
+| # | Veçoria | Përshkrimi |
+|---|---------|------------|
+| 1 | ➕ **Shto nxënës** | Shton nxënës të re me validim të emrit dhe notës |
+| 2 | 📋 **Paraqit listën** | Shfaq të gjithë nxënësit në formë tabele me ngjyra |
+| 3 | 🔍 **Kërko nxënës** | Kërkim sipas emrit ose pjesës së emrit |
+| 4 | 📊 **Statistika** | Mesatarja, max, min, kalimi, shpërndarja sipas statusit |
+| 5 | ✏️ **Edito notën** | Ndrysho notën e një nxënësi ekzistues |
+| 6 | 🗑️ **Fshi nxënës** | Fshij nxënës me konfirmim |
+| 7 | 🔀 **Rendit** | Sipas emrit ose notës (rritës/zbritës) |
+| 8 | 🏆 **Top 3** | Shfaq 3 nxënësit më të mirë me medalje 🥇🥈🥉 |
+| 9 | 🎯 **Filtro** | Filtro nxënësit sipas statusit të notës |
+| 10 | 💾 **Ruaj** | Ruaj të dhënat në skedar `students_data.txt` |
+| 11 | 📂 **Ngarko** | Ngarko të dhënat nga skedari |
+| 12 | 🚪 **Dil** | Mbyll aplikacionin |
+
+---
+
+## 🚀 Si të ekzekutohet
+
+### Kërkesat
+- **Python 3.8** ose më i ri
+- Terminal (CMD, PowerShell, Bash, Zsh, etj.)
+
+### Hapat
+
+```bash
+# 1. Klono repository
+git clone https://github.com/USERNAME/StudentGradeManager.git
+
+# 2. Hyr në folder
+cd StudentGradeManager
+
+# 3. Ekzekuto programin
+python StudentGradeManager.py
